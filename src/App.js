@@ -16,7 +16,7 @@ function App() {
           style={{
             padding: "10px",
             backgroundColor: "rgba(0,0,0,0.6)",
-            color: "red",
+            color: "blue",
             borderRadius: "10px",
           }}
           onClick={handleADD}
