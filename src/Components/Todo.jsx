@@ -28,10 +28,10 @@ function Todo() {
     }
 
     const handleDel=(lid)=>{
-        let del_id=list.findIndex(({txt,id})=>id==lid)
+        let del_id=list.findIndex(({txt,id})=>id===lid)
         console.log(del_id)
         list.splice(del_id,1)
-        setlist([...list])
+        setlist([...list])  
 
         //  setlist(list.filter(({txt,id})=>id!=lid))
     }

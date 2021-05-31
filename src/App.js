@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Todo from "./Components/Todo";
 // import Add_todo from "./Components/Add_todo";
@@ -16,7 +16,7 @@ function App() {
           style={{
             padding: "10px",
             backgroundColor: "rgba(0,0,0,0.6)",
-            color: "blue",
+            color: "green",
             borderRadius: "10px",
           }}
           onClick={handleADD}
