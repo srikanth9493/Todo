@@ -1,0 +1,33 @@
+.todo {
+  /* background-color: yellow; */
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: -2px 3px 2px black;
+}
+
+.todo_form {
+  background-color: rgba(255, 255, 0, 0.794);
+  padding: 10px;
+  box-shadow: 0 3px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.todo_form > input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.todo_list {
+  background-color: rgba(255, 255, 0, 0.486);
+  flex: 1;
+  border-bottom-left-radius: 20px;
+  overflow-y: scroll;
+  /* border-bottom-right-radius: 50px; */
+}
