@@ -12,7 +12,17 @@ function App() {
   return (
     <div className="App">
       <div className="app_button">
-        <button onClick={handleADD}>Add Todo</button>
+        <button
+          style={{
+            padding: "10px",
+            backgroundColor: "rgba(0,0,0,0.6)",
+            color: "blue",
+            borderRadius: "10px",
+          }}
+          onClick={handleADD}
+        >
+          Add Todo
+        </button>
       </div>
 
       <div className="app__container">
